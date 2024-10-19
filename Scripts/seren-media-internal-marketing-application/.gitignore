@@ -1,21 +1,25 @@
 # System files
 .DS_Store
 
-# Log files
-*.log
-
-# Environment files
-.env
-*.env
-
-# Node modules (if using Node.js)
-node_modules/
-
-# Python virtual environment
-venv/
-
-# Ignore parent directory
+# Ignore parent directories
 ../*
 
-# Ignore other irrelevant files
+# Ignore environment and credentials
+*.env
+credentials.json
+credentials2.json
+OAuth2_brian@blueoceanart.json
+Google_API_Key.env
+token.json
+token.pickle
+
+# Ignore build directories and files
+node_modules/
+venv/
+
+# Logs
+*.log
+
+# Other irrelevant files (add specific ones from your project if needed)
 *.drp
+*.mov
