@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/new-oauth-callback"
+  to = "/.netlify/functions/new-oauth-callback"
+  status = 200

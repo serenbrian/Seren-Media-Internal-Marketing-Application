@@ -1,0 +1,21 @@
+# System files
+.DS_Store
+
+# Log files
+*.log
+
+# Environment files
+.env
+*.env
+
+# Node modules (if using Node.js)
+node_modules/
+
+# Python virtual environment
+venv/
+
+# Ignore parent directory
+../*
+
+# Ignore other irrelevant files
+*.drp
