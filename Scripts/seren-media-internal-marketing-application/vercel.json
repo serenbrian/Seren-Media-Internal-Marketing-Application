@@ -1,16 +1,9 @@
 {
   "version": 2,
-  "public": true,
   "builds": [
-    {
-      "src": "public/index.html",
-      "use": "@vercel/static"
-    }
+    { "src": "public/**", "use": "@vercel/static" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
-    }
+    { "src": "/tiktokyECHWcKut7cvWiz2TTzkvMvsZyff6oOX.txt", "dest": "/public/tiktokyECHWcKut7cvWiz2TTzkvMvsZyff6oOX.txt" }
   ]
 }
